@@ -6,9 +6,8 @@ updates:
     directory: "/"
     target-branch: "master"
     schedule:
-      interval: "daily"
-      timezone: "Asia/Jakarta"
-      time: "15:00"
+      interval: "monthly"
     commit-message:
       # Prefix all commit messages with "[github-actions] "
       prefix: "[github-actions] "
+      
