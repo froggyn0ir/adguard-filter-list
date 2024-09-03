@@ -10,4 +10,3 @@ updates:
     commit-message:
       # Prefix all commit messages with "[github-actions] "
       prefix: "[github-actions] "
-      
