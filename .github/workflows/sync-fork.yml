@@ -11,6 +11,5 @@ jobs:
     steps:
       - run: gh repo sync $REPOSITORY -b $BRANCH_NAME
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           REPOSITORY: ppfeufer/adguard-filter-list
           BRANCH_NAME: master
