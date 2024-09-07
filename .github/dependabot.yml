@@ -7,6 +7,5 @@ updates:
     target-branch: "master"
     schedule:
       interval: "monthly"
-    commit-message:
-      # Prefix all commit messages with "[github-actions] "
-      prefix: "[github-actions] "
+    pull-request-branch-name:
+      separator: "-"
